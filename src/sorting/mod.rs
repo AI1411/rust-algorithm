@@ -3,6 +3,7 @@ use std::hash::Hash;
 
 pub mod bubble_sort;
 pub mod bead_sort;
+pub mod bogo_sort;
 
 #[cfg(test)]
 pub fn is_sorted<T>(arr: &[T]) -> bool
